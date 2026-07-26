@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\anmal\Desktop\ECE 2305 - C++\Programming Projects\Project 05\main.cpp(23,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Project 05.vcxproj -> C:\Users\anmal\Desktop\ECE 2305 - C++\Programming Projects\Project 05\x64\Debug\Project 05.exe
