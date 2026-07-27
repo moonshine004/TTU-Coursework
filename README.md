@@ -1,4 +1,4 @@
-TTU Coursework Archive
+Coursework Archive
 
 Computer Engineering coursework from Texas Tech University.
 
