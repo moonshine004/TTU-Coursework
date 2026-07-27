@@ -22,4 +22,4 @@ Languages
 • Assembly
 • MATLAB (if applicable)
 
-This repository is an archive of coursework, reports, labs, and projects completed while pursuing a B.S. in Computer Engineering.
+This repository is an archive of coursework, reports, labs, and projects completed.
