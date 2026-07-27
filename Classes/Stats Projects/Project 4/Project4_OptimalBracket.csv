@@ -1,0 +1,68 @@
+Slot,Round,TeamA,SeedA,TeamB,SeedB,Prob_TeamA_Wins,Predicted_Winner,WinnerSeed
+W16,Other,american,W16a,mount saint mary`s,W16b,0.37820899562554694,mount saint mary`s,W16b
+X11,Other,texas,X11a,xavier,X11b,0.5830452106012757,texas,X11a
+Y11,Other,north carolina,Y11a,san diego st,Y11b,0.34235707527632253,san diego st,Y11b
+Y16,Other,alabama st,Y16a,saint francis (pa),Y16b,0.8976132362116496,alabama st,Y16a
+R1W1,R32,duke,W01,mount saint mary`s,W16b,0.999993149436773,duke,W01
+R1W2,R32,alabama,W02,robert morris,W15,0.792417435180812,alabama,W02
+R1W3,R32,wisconsin,W03,montana,W14,0.9718834147783945,wisconsin,W03
+R1W4,R32,arizona,W04,akron,W13,0.6359394264711357,arizona,W04
+R1W5,R32,oregon,W05,liberty,W12,0.03438238063230918,liberty,W12
+R1W6,R32,brigham young,W06,va commonwealth,W11,0.08051776918296524,va commonwealth,W11
+R1W7,R32,saint mary's,W07,vanderbilt,W10,0.9980047340522233,saint mary's,W07
+R1W8,R32,mississippi st,W08,baylor,W09,0.582198952461431,mississippi st,W08
+R1X1,R32,houston,X01,edwardsville,X16,0.9996475743404324,houston,X01
+R1X2,R32,tennessee,X02,wofford,X15,0.9976760947630208,tennessee,X02
+R1X3,R32,kentucky,X03,troy,X14,0.30352419482060106,troy,X14
+R1X4,R32,purdue,X04,high point,X13,0.11148437147933216,high point,X13
+R1X5,R32,clemson,X05,mcneese,X12,0.2608077000681479,mcneese,X12
+R1X6,R32,illinois,X06,texas,X11a,0.795484127434817,illinois,X06
+R1X7,R32,ucla,X07,utah st,X10,0.6655146153004187,ucla,X07
+R1X8,R32,gonzaga,X08,georgia,X09,0.9827150564985989,gonzaga,X08
+R1Y1,R32,auburn,Y01,alabama st,Y16a,0.9998372511459137,auburn,Y01
+R1Y2,R32,michigan st,Y02,bryant,Y15,0.9085845037772493,michigan st,Y02
+R1Y3,R32,iowa st,Y03,lipscomb,Y14,0.8969979213218788,iowa st,Y03
+R1Y4,R32,texas a&m,Y04,yale,Y13,0.14292366241185153,yale,Y13
+R1Y5,R32,michigan,Y05,uc san diego,Y12,0.007764528611773708,uc san diego,Y12
+R1Y6,R32,mississippi,Y06,san diego st,Y11b,0.16658458388911393,san diego st,Y11b
+R1Y7,R32,marquette,Y07,new mexico,Y10,0.3937518195950846,new mexico,Y10
+R1Y8,R32,louisville,Y08,creighton,Y09,0.9003247096318215,louisville,Y08
+R1Z1,R32,florida,Z01,norfolk st,Z16,0.99947478648421,florida,Z01
+R1Z2,R32,saint john`s,Z02,ne omaha,Z15,0.9976358090671404,saint john`s,Z02
+R1Z3,R32,texas tech,Z03,nc wilmington,Z14,0.9186096427597331,texas tech,Z03
+R1Z4,R32,maryland,Z04,grand canyon,Z13,0.9003299079051844,maryland,Z04
+R1Z5,R32,memphis,Z05,colorado st,Z12,0.4276968748519482,colorado st,Z12
+R1Z6,R32,missouri,Z06,drake,Z11,0.2843393926607319,drake,Z11
+R1Z7,R32,kansas,Z07,arkansas,Z10,0.6723453208014977,kansas,Z07
+R1Z8,R32,connecticut,Z08,oklahoma,Z09,0.9734470444899989,connecticut,Z08
+R2W1,R32,duke,W01,mississippi st,W08,0.999832497454526,duke,W01
+R2W2,R32,alabama,W02,saint mary's,W07,0.05741336672018877,saint mary's,W07
+R2W3,R32,wisconsin,W03,va commonwealth,W11,0.02297337738583849,va commonwealth,W11
+R2W4,R32,arizona,W04,liberty,W12,0.21225217746056627,liberty,W12
+R2X1,R32,houston,X01,gonzaga,X08,0.7738162759738514,houston,X01
+R2X2,R32,tennessee,X02,ucla,X07,0.8949524354447873,tennessee,X02
+R2X3,R32,troy,X14,illinois,X06,0.4285472503881156,illinois,X06
+R2X4,R32,high point,X13,mcneese,X12,0.34529246871443003,mcneese,X12
+R2Y1,R32,auburn,Y01,louisville,Y08,0.9380815840741479,auburn,Y01
+R2Y2,R32,michigan st,Y02,new mexico,Y10,0.7992009344493943,michigan st,Y02
+R2Y3,R32,iowa st,Y03,san diego st,Y11b,0.9746341980660552,iowa st,Y03
+R2Y4,R32,yale,Y13,uc san diego,Y12,0.055282847858926995,uc san diego,Y12
+R2Z1,R32,florida,Z01,connecticut,Z08,0.9590851815620168,florida,Z01
+R2Z2,R32,saint john`s,Z02,kansas,Z07,0.9747651203889746,saint john`s,Z02
+R2Z3,R32,texas tech,Z03,drake,Z11,0.29002100316993856,drake,Z11
+R2Z4,R32,maryland,Z04,colorado st,Z12,0.9663511185117959,maryland,Z04
+R3W1,Sweet16,duke,W01,liberty,W12,0.9947375409648709,duke,W01
+R3W2,Sweet16,saint mary's,W07,va commonwealth,W11,0.5475561257374063,saint mary's,W07
+R3X1,Sweet16,houston,X01,mcneese,X12,0.9498283293770683,houston,X01
+R3X2,Sweet16,tennessee,X02,illinois,X06,0.9680276956299056,tennessee,X02
+R3Y1,Sweet16,auburn,Y01,uc san diego,Y12,0.26285467832468196,uc san diego,Y12
+R3Y2,Sweet16,michigan st,Y02,iowa st,Y03,0.21225816288284022,iowa st,Y03
+R3Z1,Sweet16,florida,Z01,maryland,Z04,0.7836538071959842,florida,Z01
+R3Z2,Sweet16,saint john`s,Z02,drake,Z11,0.38499556398149665,drake,Z11
+R4W1,Elite8,duke,W01,saint mary's,W07,0.9707758500632834,duke,W01
+R4X1,Elite8,houston,X01,tennessee,X02,0.8570160833291824,houston,X01
+R4Y1,Elite8,uc san diego,Y12,iowa st,Y03,0.8376854112906641,uc san diego,Y12
+R4Z1,Elite8,florida,Z01,drake,Z11,0.785838507705028,florida,Z01
+R5WX,Final4,duke,W01,houston,X01,0.8579416322768132,duke,W01
+R5YZ,Final4,uc san diego,Y12,florida,Z01,0.530481566594443,uc san diego,Y12
+R6CH,Champ,duke,W01,uc san diego,Y12,0.9277299728693823,duke,W01
