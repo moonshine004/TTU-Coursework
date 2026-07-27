@@ -1,0 +1,8 @@
+// add.v - Addition operation
+module add(
+    input [7:0] a,
+    input [7:0] b,
+    output [7:0] result
+);
+    assign result = a + b;
+endmodule
