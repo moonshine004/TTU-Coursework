@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\Users\anmal\Desktop\ECE 2305 - C++\Programming Projects\Project 09\main.cpp(121,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\anmal\Desktop\ECE 2305 - C++\Programming Projects\Project 09\main.cpp(144,13): warning C4566: character represented by universal-character-name '\u2713' cannot be represented in the current code page (1252)
-  Project 09.vcxproj -> C:\Users\anmal\Desktop\ECE 2305 - C++\Programming Projects\Project 09\x64\Debug\Project 09.exe

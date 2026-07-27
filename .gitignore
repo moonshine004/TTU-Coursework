@@ -1,0 +1,82 @@
+# =========================
+# JetBrains IDEs
+# IntelliJ IDEA, PyCharm, CLion
+# =========================
+**/.idea/
+*.iml
+cmake-build-*/
+out/
+
+# =========================
+# Visual Studio
+# =========================
+**/.vs/
+**/Debug/
+**/Release/
+**/x64/
+**/Win32/
+
+*.obj
+*.o
+*.ilk
+*.pdb
+*.idb
+*.ipch
+*.tlog
+*.lastbuildstate
+*.exe
+*.dll
+
+# =========================
+# Eclipse / STM32CubeIDE
+# =========================
+**/.metadata/
+**/.settings/
+*.launch
+
+*.pdom
+*.language.settings.xml
+
+# =========================
+# Clang / CMake
+# =========================
+**/.clangd/
+**/.cache/
+compile_commands.json
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# =========================
+# Python / Jupyter
+# =========================
+**/__pycache__/
+*.pyc
+*.pyo
+**/.ipynb_checkpoints/
+**/.venv/
+**/venv/
+**/env/
+
+# =========================
+# General build output
+# =========================
+**/bin/
+**/obj/
+**/build/
+**/dist/
+
+*.d
+*.map
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+
+# =========================
+# Windows / macOS
+# =========================
+Thumbs.db
+Desktop.ini
+.DS_Store
