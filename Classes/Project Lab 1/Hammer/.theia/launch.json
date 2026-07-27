@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Button Timer",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Button Timer",
+                "resourceId": "/Button Timer"
+            }
+        }
+    ]
+}

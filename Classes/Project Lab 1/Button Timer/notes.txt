@@ -1,0 +1,39 @@
+// MSP-EXP430FR6989
+// P1.1 = S1 button (active-LOW: 0 when pressed)
+// P1.0 = Red LED
+// Requirement:
+//  - Start Timer_A when the button is PRESSED
+//  - If the timer reaches ~1 second AND the button is STILL PRESSED -> LED ON
+//  - If the button is RELEASED at any time -> Stop + reset timer, LED OFF
+//
+// Notes:
+//  - Uses Timer_A registers (no software timing loops for the 1-second hold).
+//  - Uses a PORT1 interrupt for button edges (press/release).
+//  - Enters LPM0 (not LPM4) so SMCLK keeps Timer_A running.
+
+
+BTN is BIT1 (P1.1).
+
+P1IES (Interrupt Edge Select):
+
+Bit = 1 → interrupt when the input goes HIGH→LOW (a press for an active-LOW button with pull-up).
+
+Bit = 0 → interrupt on LOW→HIGH (release).
+In your ISR you flip this bit so you first catch the press, then the release.
+
+P1IFG (Interrupt FlaG):
+
+Read-only by hardware, write 0 to clear.
+
+&= ~BTN clears the flag so you don’t immediately jump into the ISR because of a stale event.
+
+P1IE (Interrupt Enable):
+
+Bit = 1 enables the interrupt for that pin.
+
+Once enabled (and with GIE set), the PORT1 ISR will fire on the selected edge.
+
+Order matters: set the edge, clear the flag, enable the interrupt.
+
+
+NEEDS TO BE CLOCK AT 1MHZ
