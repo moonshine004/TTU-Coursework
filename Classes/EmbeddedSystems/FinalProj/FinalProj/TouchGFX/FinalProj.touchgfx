@@ -1,0 +1,440 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_240x320_puzzle.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 22,
+            "Y": 10,
+            "Width": 197,
+            "Height": 24,
+            "TextId": "__SingleUse_L0FB",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollList1",
+            "Y": 22,
+            "Width": 240,
+            "Height": 298,
+            "ItemTemplateName": "SongItem",
+            "NumberofItems": 7,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_240x320_puzzle.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "songNameText",
+            "X": 113,
+            "Y": 26,
+            "Width": 15,
+            "Height": 20,
+            "TextId": "__SingleUse_5KXX",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "timeText",
+            "X": 113,
+            "Y": 73,
+            "Width": 15,
+            "Height": 20,
+            "TextId": "__SingleUse_CY1Y",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "btnPlayPause",
+            "X": 68,
+            "Y": 206,
+            "Width": 104,
+            "Height": 92,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_av_pause_circle_outline_50_50_E8F6FB.svg.png",
+            "IconX": 27,
+            "IconY": 21,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "btnprev",
+            "X": -13,
+            "Y": 114,
+            "Width": 104,
+            "Height": 92,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_av_skip_previous_50_50_E8F6FB.svg.png",
+            "IconX": 27,
+            "IconY": 21,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "btnNext",
+            "X": 148,
+            "Y": 114,
+            "Width": 104,
+            "Height": 92,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_av_skip_next_50_50_E8F6FB.svg.png",
+            "IconX": 27,
+            "IconY": 21,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "btnrwd",
+            "X": -13,
+            "Y": 206,
+            "Width": 104,
+            "Height": 92,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_av_fast_rewind_50_50_E8F6FB.svg.png",
+            "IconX": 27,
+            "IconY": 21,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "btnFwd",
+            "X": 148,
+            "Y": 206,
+            "Width": 104,
+            "Height": 92,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_av_fast_forward_50_50_E8F6FB.svg.png",
+            "IconX": 27,
+            "IconY": 21,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "btnshuffle",
+            "X": 68,
+            "Y": 114,
+            "Width": 104,
+            "Height": 92,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_av_shuffle_50_50_E8F6FB.svg.png",
+            "IconX": 27,
+            "IconY": 21,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "btnBack",
+            "Y": 1,
+            "Width": 104,
+            "Height": 92,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_icon_round_micro_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_50_50_E8F6FB.svg.png",
+            "IconX": 27,
+            "IconY": 21,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 87,
+            "Y": 182,
+            "Width": 67,
+            "Height": 24,
+            "TextId": "__SingleUse_KXH1",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2",
+            "X": 87,
+            "Y": 274,
+            "Width": 59,
+            "Height": 24,
+            "TextId": "__SingleUse_GD38",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 181,
+            "Y": 182,
+            "Width": 39,
+            "Height": 24,
+            "TextId": "__SingleUse_UXHW",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 16,
+            "Y": 182,
+            "Width": 46,
+            "Height": 24,
+            "TextId": "__SingleUse_2ECQ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1_1",
+            "X": 17,
+            "Y": 274,
+            "Width": 45,
+            "Height": 24,
+            "TextId": "__SingleUse_W46Q",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1_1_1",
+            "X": 178,
+            "Y": 274,
+            "Width": 52,
+            "Height": 24,
+            "TextId": "__SingleUse_LAXL",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnPlayPause"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "function1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnprev"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "function2"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnNext"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "function3"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnrwd"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "function4"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnFwd"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "function5"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btnshuffle"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "function6"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "SongItem",
+        "Width": 240,
+        "Height": 89,
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 31,
+            "Y": 22,
+            "Width": 175,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_small_round_disabled.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_small_round_disabled.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\small_round_disabled.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 111,
+            "Y": 37,
+            "Width": 15,
+            "Height": 20,
+            "TextId": "__SingleUse_1FDW",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "songClicked"
+            }
+          }
+        ]
+      }
+    ],
+    "Name": "FinalProj",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.26.1",
+  "CreatedBy": "4.26.1"
+}

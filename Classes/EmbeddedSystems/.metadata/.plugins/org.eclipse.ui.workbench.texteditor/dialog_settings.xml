@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="for (uint32_t f = sweepStartHz; f &lt;= sweepStopHz; f += sweepStepHz)"/>
+		<item value="StartFreqSweepTask"/>
+		<item value="osSemaphoreAcquire(freqRampSemHandle, osWaitForever);"/>
+		<item value="HAL_TIM_Base_Stop(&amp;htim7);"/>
+		<item value="ramp"/>
+		<item value="/sine ramp"/>
+		<item value="updatefreq"/>
+		<item value="HAL_TIM_Base_Start(&amp;htim7);"/>
+		<item value="UpdateFrequency"/>
+		<item value="if (strcmp(b"/>
+		<item value="gener"/>
+		<item value="    osDelay(delayMs);"/>
+		<item value="res = f_mount(&amp;SDFatFS, (TCHAR const*)SDPath, 1);"/>
+		<item value="static void MX_SDIO_SD_Init(void)"/>
+		<item value="cmdBuffer[index] = &apos;\0&apos;;"/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="uint32_t melody3Notes[] = {&#x0A;"/>
+			<item value="xSemaphoreGive(audioPlayTrigger);"/>
+			<item value="gets"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="628"/>
+		<item key="DIALOG_Y_ORIGIN" value="217"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
