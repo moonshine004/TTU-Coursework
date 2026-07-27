@@ -21,6 +21,7 @@ out/
 *.ilk
 *.pdb
 *.idb
+*.vcxproj.user
 *.ipch
 *.tlog
 *.lastbuildstate
