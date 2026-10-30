@@ -16,6 +16,13 @@ Computer Engineering coursework completed at **Texas Tech University**.
 - Microcontroller Assembly
 - Microcontroller Lab
 - Robotics Lab
+- **FPGA Lab**
+  - Project 1: Verification Demo
+  - Project 2: Ripple Carry Adder
+  - Project 3: Chasing LED Circuit
+  - Project 5: VGA Display
+  - Project 6: Camera to VGA
+  - Capstone Project
 - Texas Instruments Internship — Summer 2026
 
 ---
@@ -30,10 +37,25 @@ Computer Engineering coursework completed at **Texas Tech University**.
 
 ---
 
+## 🛠️ Tools & Technologies
+
+- Xilinx Vivado
+- FPGA Development (Basys 3)
+- MATLAB
+- VS Code
+- Git & GitHub
+- Embedded Systems Development
+- Digital Logic Design
+
+---
+
 ## 📖 About
 
-This repository serves as an archive of coursework, reports, laboratories, and projects completed throughout my Computer Engineering degree at Texas Tech University.
+This repository serves as an archive of coursework, reports, laboratories, and projects completed throughout my **Bachelor of Science in Computer Engineering** at Texas Tech University.
 
-It also includes academic documentation completed for course credit during my Summer 2026 internship at Texas Instruments.
+It includes projects involving digital logic design, FPGA development, embedded systems, microcontroller programming, computer architecture, and hardware verification.
 
-The purpose of this repository is to preserve my academic work and document my growth as an engineer.
+The repository also contains academic documentation completed for course credit during my **Summer 2026 internship at Texas Instruments**, where I gained experience working with low-power wireless connectivity technologies and embedded development.
+
+The purpose of this repository is to preserve my academic work, demonstrate my technical experience, and document my continued growth as an engineer.
+
