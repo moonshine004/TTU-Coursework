@@ -1,0 +1,32 @@
+group3: 
+amna:
+why showing code? 
+they had a counter for each section, but its starts on 1 or 14, not 0 and 16
+their 'twist' on it was pretty cool 
+bro said gemni is hte better AI(wrong)
+
+matt asked: the counter resets and clk slows, why? the reset button is for the circuit
+matt notes: Group 3:
+      ○ Why reset the slower clock's edge on each reset?
+      ○ Checking the next switch to find out if its blocked so it can reverse is genius
+      ○ Having everything segmented into its own module for a clean presentation is amazing.
+
+Dylan: 
+3) switch idea was pretty sweet, being able to constrain the chasing is pretty cool
+why so much code in presentation, hard to follow
+flowchart was nice 
+
+note to self: their presentation style is nice
+
+group 1: we presented
+
+group 5: 
+amna: 
+mux was smart
+counter goes up to xx vs just 0-9
+speeds addtions are good
+Dylan: 5)
+
+what are they talking abt using different hz number
+timer acceleration is awesome
+I enjoyed how they went about their slide compared to group 3

@@ -1,0 +1,13 @@
+**/.Xil/
+**/*.cache/
+**/*.runs/
+**/*.sim/
+**/*.gen/
+**/*.hw/
+**/vivado*.jou
+**/vivado*.log
+**/vivado*.str
+**/vivado*.backup.*
+**/*.dcp
+**/*.ip_user_files/
+**/dfx_runtime.txt
